@@ -62,6 +62,10 @@ def delete_student():
     print("Không tìm thấy sinh viên.")
 
 
+def farewell():
+    print("Goodbye!")
+
+
 def main():
     while True:
         print("\n===== QUẢN LÝ SINH VIÊN =====")
@@ -82,7 +86,7 @@ def main():
         elif choice == "4":
             delete_student()
         elif choice == "0":
-            print("Đã thoát chương trình.")
+            farewell()
             break
         else:
             print("Lựa chọn không hợp lệ.")
