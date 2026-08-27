@@ -1,13 +1,6 @@
 def greet(name):
 
-     return "Hello, " + name
-
-
-def farewell(name):
-
-     return "Goodbye, " + name
+    return "Hello, " + name
 
 
 print(greet("World"))
-
-print(farewell("World"))
